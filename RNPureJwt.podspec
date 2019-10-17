@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/zaguiini/react-native-pure-jwt.git", :tag => "#{s.version}" }
   s.source_files  = "ios/**/*.{h,m}"
 
-  s.dependency 'React'
+  #s.dependency 'React'
   s.dependency 'JWT', '3.0.0-beta.11'
 end
 
